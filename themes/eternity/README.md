@@ -1,189 +1,84 @@
-# Eternity
+# Hugo Profile | [Wiki Page](https://github.com/gurusabarish/hugo-profile/wiki)
 
-<div align="center">
-	<img src="https://raw.githubusercontent.com/boratanrikulu/eternity/main/doc/logo.gif">
-	<p>
-        Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
-	</p>
-</div>
+[![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
 
-> [!WARNING]  
-> This project is currently not being actively maintained.  
-> Please do not create new issues on GitHub.  
-> If you **urgently** require assistance, reach out via email to [**eternity@bora.sh**](mailto:eternity@bora.sh).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c1dcb34-cada-4c80-82b7-cfdbdbd7c774/deploy-status)](https://app.netlify.com/sites/hugo-profile/deploys)
+![Latest Release](https://img.shields.io/github/v/release/gurusabarish/hugo-profile?include_prereleases)
+![Last Commit](https://img.shields.io/github/last-commit/gurusabarish/hugo-profile)
+![Open Issues](https://img.shields.io/github/issues/gurusabarish/hugo-profile?color=important)
+![Open Pull Requests](https://img.shields.io/github/issues-pr/gurusabarish/hugo-profile?color=yellowgreen)
+![License](https://img.shields.io/github/license/gurusabarish/hugo-profile)
 
-> [!IMPORTANT]  
-> If you are interested in taking over the maintenance of this project, please get in touch.  
-> Your support would be greatly appreciated!
+A high performance and mobile first hugo template for personal portfolio and blog
 
-### Demo
+- Example Site: [hugo-profile.netlify.app](https://hugo-profile.netlify.app)
 
-Website: [eternity.bora.sh](https://eternity.bora.sh)
+# Features
+- Fully Responsive
+- Minimalist Design
+- SEO Friendly.
+- Light/Dark/auto
+- Taxonomies
+- [Color customization](https://github.com/gurusabarish/hugo-profile/wiki/Color-Customization)
+- Analytics Support 
+  - [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)
+- Comment Support
+  - [Disqus](https://gohugo.io/content-management/comments/)
+- Integration with [FormSpree](https://formspree.io/) for submitting "Contact me" form
 
-<div align="center">
+Technology used: Bootstrap, fontawesome 
 
-https://user-images.githubusercontent.com/20258973/180658086-24069751-1e78-44ef-88aa-21e045ef249d.mp4
+# Requirements
+- Hugo Version 0.87.0 or higher
 
-</div>
 
-### Used by
+# How to use this template
 
-- [**cankalay.com**](https://cankalay.com)  
-  A photographer website.
+- [Hugo theme](#Hugo-theme)
+- [Direct deployment using netlify](#Direct-deployment-using-netlify)
 
-- [**www.twosmallbirds.art**](https://www.twosmallbirds.art)  
-  An illustrator website.
+[For more details](https://github.com/gurusabarish/hugo-profile/wiki)
+## Hugo theme
 
-- [**www.lucywingard.com**](https://www.lucywingard.com)  
-  A ceramic artist website.
-
-- [**emily5.com**](https://emily5.com)  
-  A graphic designer website.
-
-- [**davidbliss.art**](https://davidbliss.art/)  
-  A drawings website.
-
-- [**tatjana-hodes.de**](https://tatjana-hodes.de)  
-  An artist website.
-
-- [**cubrix.art**](https://cubrix.art/en/)  
-  An artist website.
-
-- [**asjadnaqvi.github.io/stata-portfolio**](https://asjadnaqvi.github.io/stata-portfolio/tags/portfolio/)  
-  Stata dataviz portfolio.
-  
-- [**zone.photos**](https://zone.photos)  
-  A photographer website.
-  
-- [**thomaslaneart.com**](https://thomaslaneart.com)  
-  An artist website.
-
-- [**taschchen.art**](https://taschchen.art)  
-  An artist website.
-
-- [**www.michael-bolus.com**](https://www.michael-bolus.com/)  
-  A photographer website.
-
-- [**floragrh.com.ar**](https://floragrh.com.ar/)  
-  An illustrator website.
-
-- [**fotos.pilat.cc**](https://fotos.pilat.cc/)  
-  A photographer website.
-
-- [**www.phidelart.com**](https://www.phidelart.com/)  
-  An artist website.
-
-- [**peties.art**](https://peties.art/)  
-  An artist website.
-
-- [**krystalledoux.com**](https://krystalledoux.com/)  
-  An artist website.
-
-- [**neilstoddard.com**](https://neilstoddard.com/)  
-  A photographer website.
-
-- [**rebeccacomas.com**](https://rebeccacomas.com/)  
-  A web/graphic designer website.
-
-- [**sophiacaro.com**](https://sophiacaro.com/about/)  
-  An artist website.
-
-- [**lightroastdisco.com**](https://lightroastdisco.com/)  
-  A musician website.
-
-- [**chogo.photography**](https://chogo.photography/)  
-  A photographer website. 
-
-- [**piacenza.us**](https://piacenza.us/)  
-  A photographer website.
-
-- [**rominamoyateatro.com**](https://rominamoyateatro.com/)  
-  An actress website.
-
-*Feel free to add your site here.*  
-
-### Features
-
-- **Configurable** features.
-
-- **Multiple images** support.
-
-- Clean, fresh, **minimalist**.
-
-- Integrated **lazy load**.
-
-- Automatically creates **resized** thumbnails.
-
-- Shows **exif** if it exists.
-
-### Installation
-
-1. Install Hugo.
-
-2. Create a new site.  
-	```shell
-	hugo new site yoursite
-	```  
-	```shell
-	cd yoursite
-	```  
-
-3. Remove default config file.  
-	```shell
-	rm hugo.toml
-	```
-	If you use an older version of Hugo ([< v0.110.0](https://github.com/gohugoio/hugo/issues/8979)), your config might be called differently:
-	```shell
-	rm config.toml
-	```
-
-4. Submodule the theme.  
-	```shell
-	git init
-	```  
-	```shell
-	git submodule add --depth=1 https://github.com/boratanrikulu/eternity.git themes/eternity
-	```  
-
-5. Create config.yaml;  
-	Apply (1) or (2).  
-
-	1. Use the example project (recommended).  
-		Copy all files from the example project.  
-		```shell
-		cp -r ./themes/eternity/example/eternity.bora.sh/* .
-		```  
-	2. Use empty content.  
-		Copy example config.  
-		```shell
-		cp ./themes/eternity/config.example.yaml ./config.yaml
-		```  
-6. Start the server.
-	```shell
-	hugo serve --port 1313
-	```  
-
-7. Go to [localhost:1313](http://localhost:1313).
-
-### Upgrade
-
-To get last updates, just git pull.
-```shell
-cd themes/eternity && git pull && cd -
+- Install Hugo and create a site using `hugo new site my-site --format="yaml"`
+- Clone this repo inside your themes folder
 ```
+cd themes
+git clone https://github.com/gurusabarish/hugo-profile.git
+```
+- Create config.yaml (you can use `config.toml` too) inside root folder 
+- Setup the configurations in `config.yaml`. [reference](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml)
+- You should have the mentioned (_inside the config file_) images in static folder to use them.
 
-### Usage of Posts
+For more details: [Hugo's official docs](https://gohugo.io/getting-started/quick-start/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
 
-[**Go to posts documentation.**](doc/posts.md)
+## Direct deployment using netlify
 
-### Usage of Config.yaml
+- Fork this repo or create new repo using `use this template` button and connect repo to netlify.
+- whenever you customize the files exampleSite folder, netlify will automatically deploy your changes.
 
-[**Go to config documentation.**](doc/config.md)
+For more details: [host on netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
 
-### Editing Style
+# Deployment
 
-[**Go to style documentation.**](doc/style.md)
+Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` command.
 
-### Contact
+# Issues
 
-If you need to contact us for any reason; send a mail to [**eternity@bora.sh**](mailto:eternity@bora.sh).
+If you have a question, please [open an issue](https://github.com/gurusabarish/hugo-profile/issues) for help and to help those who come after you. The more information you can provide, the better!
+
+# Contributing
+
+Contributions, issues, and feature requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+# License
+
+Licensed under [MIT](LICENSE)
+
+# 🤝 Support
+
+Give a ⭐️ or buy me a ~`coffee`~ tea if you like this project!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7BFFGU)
+
+<a href="https://www.buymeacoffee.com/gurusabarish" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
