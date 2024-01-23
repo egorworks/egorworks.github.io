@@ -1,7 +1,7 @@
 
 ### Usage of Posts
 
-Eternity is configurable and you can change feature behaviours by setting variables.
+Ciao Eternity is configurable and you can change feature behaviours by setting variables.
 
 Here's a basic post structure. You can basically use `tags` to set which pages will have this post. We suggest to use `work` for homepage and `archive` for all posts. (Note: you can change their names too).  
 If you want to create a new page, just add it as a new tag. (`my-image-1.jpg` should be located in `/assets/images` folder of your project)
