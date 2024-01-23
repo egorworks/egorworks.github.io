@@ -2,7 +2,7 @@ baseURL: https://egorworks.github.io
  # todo: change site url.
 title: Eternity # todo: change site name.
 defaultContentLanguage: 'en'
-theme: eternity
+theme: hugo-profile
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
