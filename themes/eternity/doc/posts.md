@@ -15,6 +15,7 @@ tags:
 - work
 ---
 ```
+[![](https://markdown-videos-api.jorgenkh.no/youtube/dQw4w9WgXcQ)](https://youtu.be/dQw4w9WgXcQ)
 
 You can set `date` value for your posts. It will be used in Post page and for posts sorting. If you want, you can use `weight` value for sorting. (Note: if you won't set a `date`, we check `exif` value of the image to use in post.)
 
